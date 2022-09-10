@@ -262,14 +262,13 @@ hide_root = true
 margin_top = 386.0
 margin_right = 506.0
 margin_bottom = 578.0
+rect_min_size = Vector2( 400, 140 )
 custom_colors/files_disabled = Color( 0.733333, 0.823529, 0.819608, 0.627451 )
 custom_colors/file_icon_modulate = Color( 0.733333, 0.823529, 0.819608, 1 )
-window_title = "Open a Directory"
+window_title = "Verzeichnis wählen"
 resizable = true
 mode = 2
 access = 2
-current_dir = "/home/richi/Projekte/SFX-Browser"
-current_path = "/home/richi/Projekte/SFX-Browser/"
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 margin_left = 272.0
@@ -638,12 +637,11 @@ __meta__ = {
 margin_left = 269.0
 margin_right = 732.0
 margin_bottom = 143.0
-window_title = "Open a Directory"
+rect_min_size = Vector2( 400, 140 )
+window_title = "Verzeichnis wählen"
 resizable = true
 mode = 2
 access = 2
-current_dir = "/home/richi/Projekte/SFX-Browser"
-current_path = "/home/richi/Projekte/SFX-Browser/"
 
 [connection signal="pressed" from="PanelContainer/MarginContainer/DirectoryBrowser/Load" to="PanelContainer/MarginContainer/DirectoryBrowser" method="_on_Load_pressed"]
 [connection signal="pressed" from="PanelContainer/MarginContainer/DirectoryBrowser/BrowserHelp/MarginContainer/HBoxContainer/Close" to="PanelContainer/MarginContainer/DirectoryBrowser/BrowserHelp" method="_on_Close_pressed"]
